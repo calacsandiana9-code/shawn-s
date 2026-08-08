@@ -1,169 +1,242 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For Shawn ♡</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy 2nd Monthsarry Baby ♡</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Quicksand:wght@400;500;600;700&display=swap');
 
-:root{
-  --ink:#3d3940; --rose:#d97998; --soft:#fff7fa; --lav:#e9e0f5;
-  --line:#ead9df; --paper:#fffdfb;
-}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;color:var(--ink);background:var(--soft);font-family:Inter,sans-serif}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;
-background-image:radial-gradient(#c8aab7 0.6px,transparent .6px);background-size:13px 13px}
-nav{position:fixed;z-index:10;top:0;left:0;right:0;padding:16px 6%;display:flex;justify-content:space-between;align-items:center;
-background:rgba(255,253,251,.78);backdrop-filter:blur(12px);border-bottom:1px solid rgba(234,217,223,.7)}
-.logo{font-family:"Cormorant Garamond";font-size:27px;font-weight:600}
-nav a{color:var(--ink);text-decoration:none;font-size:12px;margin-left:20px}
-.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:110px 20px 70px;
-background:linear-gradient(180deg,#dceaf7 0%,#f7e7f1 55%,#fff8fa 100%);position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;inset:0;background:
-radial-gradient(circle at 10% 20%,rgba(255,255,255,.8) 0 2px,transparent 3px),
-radial-gradient(circle at 80% 30%,rgba(255,255,255,.7) 0 2px,transparent 3px);
-background-size:170px 150px,220px 190px}
-.hero-inner{position:relative;z-index:2;max-width:760px}
-.kicker{text-transform:uppercase;letter-spacing:4px;color:#a8667f;font-size:11px}
-h1,h2{font-family:"Cormorant Garamond",serif;font-weight:500}
-h1{font-size:clamp(60px,12vw,120px);margin:12px 0 0;line-height:.9}
-.hero p{max-width:550px;margin:24px auto;color:#625b63;line-height:1.8}
-.jp{font-family:"Cormorant Garamond";font-size:22px;color:#c66d8b}
-.btn{border:1px solid var(--rose);background:#df7898;color:white;padding:13px 22px;border-radius:4px;
-cursor:pointer;font-size:12px;letter-spacing:1px;transition:.2s}
-.btn:hover{transform:translateY(-2px);filter:brightness(1.04)}
-section{padding:90px 7%;max-width:1150px;margin:auto}
-.section-label{color:#c66d8b;text-transform:uppercase;letter-spacing:3px;font-size:10px}
-h2{font-size:48px;margin:8px 0 22px}
-.letter{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
-.paper{background:var(--paper);padding:38px;box-shadow:0 15px 40px rgba(74,47,60,.08);border:1px solid var(--line);
-transform:rotate(-1deg)}
-.paper p{line-height:1.9}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.card{background:rgba(255,255,255,.65);border:1px solid var(--line);padding:26px;min-height:170px}
-.card span{font-size:26px}
-.card h3{font-family:"Cormorant Garamond";font-size:25px;margin:15px 0 8px}
-.card p{font-size:13px;line-height:1.7;color:#6c646b}
-.timeline{border-left:1px solid #d998ad;padding-left:28px}
-.event{margin:0 0 28px;position:relative}
-.event:before{content:"";position:absolute;left:-35px;top:5px;width:11px;height:11px;border-radius:50%;background:#df7898;border:3px solid #fff}
-.surprise{max-width:none;text-align:center;background:linear-gradient(135deg,#f2dbe7,#e6ddf2);padding:100px 20px}
-.surprise p{max-width:600px;margin:0 auto 25px;line-height:1.8}
-footer{text-align:center;padding:25px;color:#81747d;font-size:11px}
-.petal{position:fixed;top:-30px;z-index:20;pointer-events:none;color:#e7a8bb;font-size:18px;animation:fall linear forwards}
-@keyframes fall{to{transform:translate3d(var(--drift),110vh,0) rotate(420deg);opacity:.15}}
-.modal{position:fixed;inset:0;background:rgba(49,37,46,.55);display:none;place-items:center;z-index:50;padding:20px}
-.modal.show{display:grid}
-.modal-box{max-width:620px;width:100%;background:#fffafc;padding:45px;text-align:center;border:1px solid #edd7e0;box-shadow:0 25px 80px rgba(0,0,0,.2);animation:pop .35s ease}
-@keyframes pop{from{transform:scale(.94);opacity:0}to{transform:scale(1);opacity:1}}
-.modal-box h2{font-size:54px;margin:5px 0 15px}
-.modal-box p{line-height:1.9;color:#655d65}
-.close{background:transparent;color:#a8667f;margin-top:10px}
-@media(max-width:760px){
- nav .links{display:none}.letter{grid-template-columns:1fr}.cards{grid-template-columns:1fr}
- section{padding:70px 7%}h2{font-size:40px}.paper{transform:none}
+body{
+  margin:0;
+  background:#fffafa;
+  color:#572b3b;
+  font-family:"Patrick Hand","Comic Sans MS",cursive;
+  overflow-x:hidden;
+}
+.hero{
+  min-height:500px;
+  background-image:
+    linear-gradient(to bottom, rgba(23,29,61,.08), rgba(23,29,61,.02)),
+    url("hero.jpg");
+  background-size:cover;
+  background-position:center top;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.hero-content{
+  margin-top:-10px;
+  max-width:650px;
+  padding:25px;
+}
+.hero h1{
+  color:#fff7fb;
+  font-size:clamp(44px,7vw,72px);
+  line-height:.98;
+  margin:0;
+  text-shadow:0 3px 8px rgba(104,39,78,.6);
+}
+.hero .divider{color:#ffd4e5;font-size:34px;margin:14px 0}
+.hero p{
+  color:#ffdbe9;
+  font-size:24px;
+  margin:5px 0;
+  text-shadow:0 2px 5px rgba(52,23,55,.5);
+}
+.corner{position:absolute;top:18px;color:white;font-size:30px;text-shadow:0 2px 5px #333}
+.corner.left{left:24px}.corner.right{right:24px}
+.container{width:min(820px,90%);margin:auto}
+section{padding:38px 0}
+.card{
+  background:linear-gradient(135deg,#fff4f7,#fffafb);
+  border:2px solid #ffd1df;
+  border-radius:14px;
+  box-shadow:0 5px 18px rgba(178,76,116,.07);
+  padding:28px 34px;
+}
+.title{
+  text-align:center;
+  color:#d84f83;
+  font-size:32px;
+  margin:0 0 20px;
+}
+.letter{
+  font-size:22px;
+  line-height:1.38;
+  text-align:center;
+}
+.heart{color:#ff9abc}
+.memories{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+}
+.memory{
+  background:#fffdfb;
+  padding:10px 10px 17px;
+  box-shadow:0 4px 10px rgba(60,30,40,.15);
+  transform:rotate(-1deg);
+  position:relative;
+}
+.memory:nth-child(2){transform:rotate(1deg)}
+.memory:nth-child(3){transform:rotate(-.5deg)}
+.memory:nth-child(4){transform:rotate(1.2deg)}
+.memory:before{
+  content:"";
+  width:70px;height:16px;
+  background:#ef9dbb;
+  opacity:.72;
+  position:absolute;
+  top:-8px;left:50%;
+  transform:translateX(-50%) rotate(-1deg);
+}
+.memory img{
+  display:block;width:100%;aspect-ratio:1/1;object-fit:cover;
+}
+.memory p{
+  text-align:center;
+  font-size:18px;
+  line-height:1.15;
+  margin:11px 2px 0;
+}
+.pills{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:12px;
+}
+.pill{
+  border:2px solid #ffd0df;
+  background:#fffafb;
+  border-radius:25px;
+  padding:7px 17px;
+  font-family:"Quicksand",sans-serif;
+  font-size:14px;
+  font-weight:600;
+  color:#b93f6c;
+}
+.surprise{text-align:center}
+.surprise button{
+  border:0;
+  background:#ef7fa8;
+  color:white;
+  font-family:"Patrick Hand",cursive;
+  font-size:21px;
+  padding:12px 28px;
+  border-radius:28px;
+  box-shadow:0 5px 12px rgba(208,80,125,.25);
+  cursor:pointer;
+}
+.hidden-message{
+  display:none;
+  margin-top:20px;
+  font-size:24px;
+  line-height:1.35;
+  color:#d54d7d;
+}
+.hidden-message.show{display:block;animation:pop .45s ease}
+@keyframes pop{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:scale(1)}}
+.footer{text-align:center;color:#e58aa7;font-size:22px;padding:18px 0 45px}
+@media(max-width:700px){
+  .hero{min-height:430px}
+  .hero h1{font-size:45px}
+  .hero p{font-size:20px}
+  .memories{grid-template-columns:repeat(2,1fr);gap:18px}
+  .card{padding:22px 18px}
+  .letter{font-size:19px}
+}
+@media(max-width:430px){
+  .memories{grid-template-columns:1fr 1fr}
+  .memory p{font-size:16px}
 }
 </style>
 </head>
 <body>
-<nav>
-  <div class="logo">For Shawn ♡</div>
-  <div class="links">
-    <a href="#letter">LETTER</a><a href="#memories">MEMORIES</a><a href="#reasons">REASONS</a><a href="#surprise">SURPRISE</a>
-  </div>
-</nav>
 
 <header class="hero">
-  <div class="hero-inner">
-    <div class="kicker">a little corner of the internet, just for you</div>
-    <div class="jp">声の形 · 08 / 12 / 26</div>
-    <h1>For Shawn.</h1>
-    <p>Some things are easier to write down than to say out loud. So I made this little place for the things I want you to remember.</p>
-    <button class="btn" onclick="document.querySelector('#letter').scrollIntoView()">OPEN MY HEART ♡</button>
+  <div class="corner left">♥</div>
+  <div class="corner right">♫</div>
+  <div class="hero-content">
+    <h1>Happy 2nd<br>Monthsarry baby! ♡</h1>
+    <div class="divider">— ♡ —</div>
+    <p>thank you for being in my life.</p>
+    <p>i love you so much.</p>
   </div>
 </header>
 
-<section id="letter">
-  <div>
-    <div class="section-label">a letter for you</div>
-    <h2>I wrote this<br>just for <span style="color:#d97998">you.</span></h2>
-    <p style="line-height:1.9;color:#6c646b">Change the words below to make this completely yours. You can also add your own photos and memories.</p>
-  </div>
-  <div class="paper">
-    <p>Dear Shawn,</p>
-    <p>There are so many little moments with you that I never want to forget. The random conversations, the laughs, the quiet moments, and all the memories that somehow became special.</p>
-    <p>Thank you for being part of my story. I love you, Shawn. I hope whenever you visit this page, you remember that you are appreciated more than you probably realize.</p>
-    <p>— with love, ♡</p>
-  </div>
-</section>
+<main class="container">
+  <section>
+    <div class="card">
+      <h2 class="title">💌 A Letter for You</h2>
+      <div class="letter">
+        I want to thank you for always being kind and patient towards me baby!<br>
+        May god protect us both and our relationship, sorry if sometimes<br>
+        nasusungitan kita — but that doesn’t mean hindi na kita love hmmkay?<br>
+        love na love kita poo, i’m always thankful to find someone so rare<br>
+        like you in this lifetime. :((<br><br>
+        <span class="heart">♡</span>
+      </div>
+    </div>
+  </section>
 
-<section id="memories">
-  <div class="section-label">our little moments</div>
-  <h2>Little moments,<br><span style="color:#d97998">big meaning.</span></h2>
-  <div class="cards">
-    <div class="card"><span>🌸</span><h3>Random laughs</h3><p>Put your favorite funny memory here.</p></div>
-    <div class="card"><span>☁️</span><h3>Late-night talks</h3><p>Add a memory of a conversation you'll always remember.</p></div>
-    <div class="card"><span>🎧</span><h3>Our songs</h3><p>Add a song that reminds you of each other.</p></div>
-  </div>
-</section>
+  <section>
+    <h2 class="title">✦ Favorite Memories ✦</h2>
+    <div class="memories">
+      <article class="memory">
+        <img src="memory1.jpg" alt="Spotify memory">
+        <p>1. when we jam<br>to spotify</p>
+      </article>
+      <article class="memory">
+        <img src="memory2.jpg" alt="Mobile Legends memory">
+        <p>2. when we<br>play ml</p>
+      </article>
+      <article class="memory">
+        <img src="memory3.jpg" alt="Night call memory">
+        <p>3. when we call<br>every night</p>
+      </article>
+      <article class="memory">
+        <img src="memory4.jpg" alt="Funny memory">
+        <p>4. when you<br>make me laugh</p>
+      </article>
+    </div>
+  </section>
 
-<section id="reasons">
-  <div class="section-label">a few reasons</div>
-  <h2>Things I appreciate<br>about <span style="color:#d97998">you.</span></h2>
-  <div class="cards">
-    <div class="card"><span>♡</span><h3>You listen.</h3><p>Even when I don't know exactly how to explain what I'm feeling.</p></div>
-    <div class="card"><span>✿</span><h3>You make moments special.</h3><p>Sometimes the smallest things end up being my favorite memories.</p></div>
-    <div class="card"><span>☆</span><h3>You are you.</h3><p>And that's something I hope you never feel like you have to change.</p></div>
-  </div>
-</section>
+  <section>
+    <h2 class="title">♡ Things I Love About You ♡</h2>
+    <div class="card">
+      <div class="pills">
+        <span class="pill">his eyes</span>
+        <span class="pill">his face</span>
+        <span class="pill">his presence</span>
+        <span class="pill">his voice</span>
+        <span class="pill">his laugh</span>
+        <span class="pill">his humor</span>
+        <span class="pill">his kindness</span>
+        <span class="pill">everything about him</span>
+      </div>
+    </div>
+  </section>
 
-<section>
-  <div class="section-label">our timeline</div>
-  <h2>Every step we've taken.</h2>
-  <div class="timeline">
-    <div class="event"><strong>08 / 12 / 26</strong><br><small>A date I want to remember.</small></div>
-    <div class="event"><strong>The day we became closer</strong><br><small>Add the memory that made this feel different.</small></div>
-    <div class="event"><strong>A moment I'll never forget</strong><br><small>Your favorite memory together.</small></div>
-    <div class="event"><strong>And whatever comes next</strong><br><small>More memories waiting to happen.</small></div>
-  </div>
-</section>
+  <section class="surprise">
+    <h2 class="title">One Last Thing... ♥</h2>
+    <div class="card">
+      <div class="letter">
+        ps. i wrote this earlier before our monthsarry baby because i know i’ll be busy
+        on 12 so my bad! and idk if dadating na yung gift ko sayo but yahhh, please do
+        enjoy it as well as this baby, i love you
+      </div>
+      <br>
+      <button onclick="document.getElementById('final').classList.toggle('show')">click for a little surprise ♡</button>
+      <div id="final" class="hidden-message">
+        baby, you mean the world to me. ♡<br>
+        Happy 2nd Monthsarry! I love you so much.
+      </div>
+    </div>
+  </section>
 
-<section class="surprise" id="surprise">
-  <div class="section-label">one last thing</div>
-  <h2>A little surprise,<br>just because. ♡</h2>
-  <p>You've reached the end—but there's one message I saved especially for you.</p>
-  <button class="btn" onclick="openSurprise()">OPEN THE SURPRISE</button>
-</section>
-
-<footer>Made with ♡ · Inspired by the quiet, pastel atmosphere of <i>A Silent Voice</i></footer>
-
-<div class="modal" id="modal" onclick="if(event.target===this)closeSurprise()">
-  <div class="modal-box">
-    <div class="jp">ありがとう</div>
-    <h2>I love you, Shawn.</h2>
-    <p>
-      No matter how busy life gets or how much changes around us,
-      I hope you remember that there is someone cheering for you,
-      appreciating you, and wishing you good things.
-    </p>
-    <p><strong>Shawn, I love you. ♡</strong></p>
-    <button class="btn close" onclick="closeSurprise()">CLOSE</button>
-  </div>
-</div>
-
-<script>
-function openSurprise(){document.getElementById('modal').classList.add('show')}
-function closeSurprise(){document.getElementById('modal').classList.remove('show')}
-function petal(){
-  const p=document.createElement('div'); p.className='petal'; p.textContent=Math.random()>.25?'🌸':'✿';
-  p.style.left=Math.random()*100+'vw'; p.style.setProperty('--drift',(Math.random()*180-90)+'px');
-  p.style.animationDuration=(5+Math.random()*6)+'s'; p.style.opacity=.25+Math.random()*.5;
-  document.body.appendChild(p); setTimeout(()=>p.remove(),12000);
-}
-setInterval(petal,650);
-</script>
+  <div class="footer">you mean the world to me, baby. ♥</div>
+</main>
 </body>
 </html>
